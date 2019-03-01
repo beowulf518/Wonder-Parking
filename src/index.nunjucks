@@ -1,0 +1,205 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% import '_modules/link/link.nunjucks' as link %}
+{% import '_modules/header/header.nunjucks' as header %}
+{% import '_modules/hero/hero.nunjucks' as hero %}
+{% import '_modules/footer/footer.nunjucks' as footer %}
+
+{% block content %}
+<header class="zone zone-header">
+  {{ header.content() }}
+</header>
+
+<main id="content" style="overflow-x:hidden">
+  <div class="zone hero-zone">
+
+    {{ hero.content() }}
+
+  </div>
+
+    <div class="adrides-border">
+      <div class="bg-monkey">      
+        <img src="../images/wonder/bg_monkey.png" alt="Wonder_Park">  
+      </div>
+      <div class="triangle-right"></div>
+    </div>
+
+    <div class="adrides-zone"> 
+      <div class="wrapper">      
+            <div class="adrides">
+
+                
+
+                <div class="adrides-wonder-title">      
+                    <img src="../images/wonder/wonder_park_title.png" alt="Wonder_Park">  
+                </div>
+
+
+                <div class="adrides-store">
+                  <div class="adrides-store-girl" >
+                    <img src="../images/wonder/wonder_girl.png"/>
+                  </div>
+                  <div class="adrides-store-content">
+                    <div class="store-btn-group">
+                      <a>
+                        <img src="../images/wonder/app_store_btn.png" />
+                      </a>
+                      <a>
+                        <img src="../images/wonder/google_play_btn.png" />
+                      </a>
+                    </div>
+
+                    <div class="store-description">
+                      <p class="store-description-title">THE FIRST AMUSEMENT PARK CITY-BUILDER GAME<br/>based on a multi-million dollars successful IP! </p>
+                      <p class="store-description-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="adrides-waterwheel">
+                    <img src="../images/wonder/waterwheel.png" />
+                </div>
+
+                {# Wonder Video #}
+                <div class="adrides-video">
+                  <div>
+                    <img src="../images/wonder/parking_video.jpg"   />
+                    <img class="play_btn" src="../images/wonder/play_btn.png" />
+                  </div>
+                  
+                </div>
+
+                {# Wonder Learn More #}
+                <div class="adrides-learnmore">
+                  <div class="adrides-learnmore-avatar" >
+                    <img src="../images/wonder/learnmore_avatar.png"/>
+                  </div>
+
+                  <div class="adrides-learnmore-content">
+                    
+
+                    <div class="store-description">
+                      <p class="store-description-title">THE FIRST AMUSEMENT PARK CITY-BUILDER GAME<br/>based on a multi-million dollars successful IP! </p>
+                      <p class="store-description-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+
+
+                    <div class="learnmore-btn">
+                      <a>
+                        <img src="../images/wonder/learnmore_btn.png" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                {# KEY FEATURE #}
+                <div class="adrides-keyfeature">
+                  <div class="adrides-keyfeature-content">
+
+                    <div class="adrides-keyfeature-parking" >
+                      <img src="../images/wonder/wonder_parking.png" />
+                    </div>
+
+                    <div class="store-description">
+                      <p class="store-description-title">KEY FEATURE </p>
+                      <p class="store-description-content">+ Create a complete collection of Chimps</p>
+                      <p class="store-description-content">+ Over 30 playable characters! </p>
+                      <p class="store-description-content">+ Craft and sell new items! </p>
+                      <p class="store-description-content">+ Make visitors happy to collect special materials!</p>
+                    </div>
+
+                    
+                  </div>
+                </div>
+
+                {# WonderCarusel #}
+
+                {# <div id="wonder-carusel" class="adrides-carusel">
+                  <div class="carusel-item" >
+                    <img src="../images/wonder/parking.jpg" />
+                  </div>
+                  <div class="carusel-item"><img src="../images/wonder/parking.jpg" /></div>
+                  <div class="carusel-item"><img src="../images/wonder/parking.jpg" /></div>
+                  <div class="carusel-item"><img src="../images/wonder/parking.jpg" /></div>
+                  <div class="carusel-item"><img src="../images/wonder/parking.jpg" /></div>
+                  <div class="carusel-item"><img src="../images/wonder/parking.jpg" /></div>
+                </div> #}
+
+                <div class="wonder-carusel rio-promos">
+                  <img src="../images/wonder/parking.jpg" />
+                  <img src="../images/wonder/parking.jpg" />
+                  <img src="../images/wonder/parking.jpg" />
+                  <img src="../images/wonder/parking.jpg" />
+                  <img src="../images/wonder/parking.jpg" />
+                  <img src="../images/wonder/parking.jpg" />
+                  <img src="../images/wonder/parking.jpg" />
+                  <img src="../images/wonder/parking.jpg" />
+                  <img src="../images/wonder/parking.jpg" />
+                </div>
+
+                {# Bag #}
+                <div class="adrides-bag">
+                  <div class="adrides-bag-avatar" >
+                    <img src="../images/wonder/bag.png"/>
+                  </div>
+
+                  <div class="adrides-bag-content">
+                    
+
+                    <div class="bag-description">
+                      <p class="bag-description-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor... </p>
+                      <p class="bag-description-content">irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                  </div>
+                </div>
+       
+            </div>
+
+            <div class="about">
+              <div class="about-logo">
+                <img src="../images/wonder/wonder_girl_monkey.png"/>
+              </div>
+              
+              <div class="about-content">
+                <div class="about-section1">
+                  <p class="title">About PIXOWL</p>
+                  <p class="description">Founded in 2011 and headquartered in San Francisco, CA, with development studios in Buenos Aires, Argentina, Pixowl, Inc. is a mobile game development company. Pixowl’s experienced international team of dynamic innovators strives to meet and exceed the desires of mobile game players worldwide by blending exciting gameplay, comic book art and character-driven storylines.  With the success of its iOS games including The Sandbox, Peanuts: Snoopy’s Town Tale & Garfield: Survival of the Fattest, Pixowl has already established itself as a leader in casual mobile games and IP-based games. For more information about Pixowl, please visit <b>www.pixowl.com</b> or friend and follow them on Facebook and Twitter.</p>
+                </div>
+                <div class="about-section1">
+                  <p class="title">About WONDER PARK</p>
+                  <p class="description">Wonder Park tells the story of a magnificent amusement park where the imagination of a wildly creative girl named June comes alive. One magical day, June is running through the woods to find her way home where she discovers an old rollercoaster car and climbs inside. She suddenly finds herself in Wonderland, an amusement park she had created in her mind and put aside. All of her rides and characters are brought to life but are falling into disarray without her. Now, with the help of her fun and lovable park characters, June will have to put the wonder back in Wonderland before it is lost forever.. <b>www.wonderparkmovie.com</b></p>
+                </div>
+                <div class="about-logo-section">
+                  <div class="logo-item"><img src="../images/wonder/animoca.png"/></div>
+                  <div class="logo-item"><img src="../images/wonder/pixowl.png"/></div>
+                  <div class="logo-item"><img src="../images/wonder/paramount.png"/></div>
+                  <div class="logo-item"><img src="../images/wonder/nickelodeon.png"/></div>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="footer-border">
+      <div class="triangle-right"></div>
+    </div>
+
+  <div class="footer-zone">
+    {# <div class="footer-wrapper"> #}
+      <div class="logo-section">
+        <img src="../images/wonder/footer_logo.png" />
+        <p>TM & © 2019 Paramount Pictures. All Rights Reserved.</p>
+      </div>
+      <div class="list-section">
+        <img src="../images/wonder/coppa.png" />
+        <div class="list">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Game Privacy Policy</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+    {# </div>   #}
+  </div>
+</main>
+{% endblock %}

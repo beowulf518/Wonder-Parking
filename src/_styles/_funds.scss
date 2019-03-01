@@ -1,0 +1,307 @@
+
+.funds{
+	&-title{
+		margin-bottom: 78px;
+	}
+
+	&-one_data{
+		display: none;
+	}
+
+	
+	&-one{
+		width: 80%;
+		max-width: 1470px;
+		margin: auto;
+		&-first{
+			width:100%;
+			
+		}
+		&-second{
+			width:100%;
+			margin-top: 100px;
+		}
+	
+		margin-left: auto;
+		margin-right: auto;
+		
+
+		display: flex;
+		flex-direction: column;
+		justify-content: column;
+		align-items: center;
+
+		
+		
+
+		
+		
+	}
+
+	@media (max-width: $m1440) {
+		&-one{
+			padding-left: 0;
+			&_large{
+				.funds-one_img{
+					width: 35vh;
+					height: 35vh;
+				}
+			}
+		}
+	}
+
+	@media (max-width: $m1200) {
+		&-one{
+			flex-direction: column;
+
+			&_large{
+				flex-wrap: wrap;
+
+				.funds-one_text{
+					max-width: 70%;
+					margin: 0 auto 48px;
+					order: 3;
+				}
+				.funds-one_data{
+					order: 2;
+					margin-bottom: 72px;
+				}
+				.funds-one_img{
+					order: 1;
+					margin-bottom: 72px;
+				}
+			}
+		}
+	}
+
+    @media (max-width: $m992) {
+		&-one_data{
+			margin-bottom: 72px;
+			display: block;
+			margin-top: 50px;
+		}
+		&-one{
+			flex-direction: column;
+
+			&_img{
+				margin-bottom: 56px;
+				width: 438px;
+				height: 438px;
+				min-width: auto;
+			}
+
+			&_large{
+				
+				.funds-one_img{
+					width: 438px;
+					height: 438px;
+					margin-right: 0;
+				}
+			}
+		}
+	}
+    
+    @media (max-width: $m768) {
+		&-title{
+			margin-bottom: 132px;
+			text-align: center;
+			transform: translateY(-120px);
+		}
+		&-one{
+			margin-left: auto;
+			margin-right: auto;
+			transform: translateY(-120px);
+
+			max-width: 100vw;
+			overflow: hidden;
+
+			&_data{
+				padding-left: 56px;
+			}
+
+			&_img{
+				width: 100%;
+				max-width: 300px;
+				height: auto;
+
+				&-text{
+					position: absolute;
+				}
+				&-img{
+					position: relative;
+					max-width: 280px;
+				}
+			}
+
+			&_large{
+				.funds-one_data{
+					margin-bottom: 72px;
+				}
+				.funds-one_img{
+					width: 100%;
+					max-width: 300px;
+					height: auto;
+
+					&-img{
+						max-width: 280px;
+					}
+				}
+				.funds-one_text{
+					max-width: 100%;
+					font-size: 16px;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+.data{
+	&-item{
+		list-style-type: none;
+		position: relative;
+		margin-bottom: 32px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+
+		&_ref{
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			background-color: var(--fill);
+			position: absolute;
+			left: -56px;
+
+			&-border{
+				border: 1px solid var(--grayLight);
+			}
+		}
+		&_text{
+			font-size: 23px;
+			font-weight: 800;
+			letter-spacing: -0.8px;
+			max-width: 334px;
+			margin-bottom: 8px;
+			line-height: normal;
+			text-transform: uppercase;
+		}
+		&_small{
+			display: block;
+			font-weight: 400;
+			font-size: 18px;
+		}
+	}
+    
+    @media (max-width: $m768) {
+		&-item{
+			&_ref{
+				width: 30px;
+				height: 30px;
+				top: 3px;
+			}
+			&_text{
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+
+
+@media (max-width: $m992) {
+	.funds-one-first {
+	  width: 171%;
+	}
+	.funds-one-second {
+		width: 171%;
+	  }
+	
+	.labelName{
+	  display: none;
+	}
+	.labelPercent{
+	  display: none;
+	}
+	.labelNameToken{
+	  display: none;
+	}
+	.lines{
+	  display: none;
+	}
+	.dots{
+	  display: none;
+	}
+  }
+  
+  @media (max-width: 690px) {
+	.funds-one-first {
+	  width: 220%;
+	}
+	.funds-one-second {
+		width: 270%;
+		}
+		
+		
+		.centerTitle2{
+			font-size:32px;
+		}
+  }
+
+  @media (max-width: 450px) {
+	.funds-one-first {
+	  width: 210%;
+	}
+	.centerTitle1{
+		font-size:27px;
+	}
+	.funds-one-second {
+		width: 265%;
+	  }
+  }
+
+.proceeds{
+	margin-top:80px;
+	margin-bottom:80px;
+	h2{
+		color:#3774e1;
+		text-transform: uppercase;
+	}
+
+  .use-proceeds{
+	
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin-top:40px;
+	
+	&-item{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		height: 410px;
+		p{
+			height: 50px;
+			font-size: 24px;
+			font-weight: 600;
+			color:#d16c8f;
+		}
+	}
+
+  }
+
+  @media (max-width: 1280px) {
+	.use-proceeds{
+		grid-template-columns: repeat(2, 1fr);
+	}
+  }
+
+  @media (max-width: $m992) {
+	.use-proceeds{
+		grid-template-columns: repeat(1, 1fr);
+	}
+  }
+
+}

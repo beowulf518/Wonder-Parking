@@ -1,0 +1,186 @@
+.token-coin{
+
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+    margin-bottom:150px;
+
+    &-item{
+        background-image: url("../images/orange_rectangle.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 400px;
+        height: 360px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            margin-top:-70px;
+            margin-bottom: 10px;
+
+        }
+
+        p{
+            color: #ffffff;
+            font-family: Montserrat;
+            font-size: 21px;
+            font-weight: 700;
+            line-height: 28px;
+            /* Text style for "T, he scar" */
+            letter-spacing: 0.3px;
+            text-align: center;
+            max-width: 365px;;
+        }
+        
+    }
+
+    &-item-plus{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:36px;
+        margin-right:36px;
+    }
+
+    @media (max-width: 1280px) {
+        margin-top:70px!important;
+
+        &-item{
+            width: 35vw;
+            img{
+               width: 7vw;
+            }
+            p{
+                font-size: 1.9vw;
+                line-height: 2.5vw;
+                padding-left: 10px;
+                padding-right:10px;
+            }
+        }
+    
+    }
+
+}
+
+@media (max-width: $m992){
+        
+    
+    
+    
+
+    .token-coin{
+        display: flex;
+        flex-direction: column;
+        background-image: url("../images/mobileorange.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 700px;
+        width: 350px;
+        
+        
+        
+
+        &-item{
+            width: 350px;
+            background-image: none;
+            margin-top: 3px;
+            height: 225px;
+
+            p{
+                font-size: 23px;
+                font-weight: 700;
+                line-height: 28px;
+                letter-spacing: 0.3px;
+                text-align: center;
+                max-width: 390px;
+            }
+            img{
+                width: 85px;
+            }
+        }
+
+        &-item-plus{
+            img{
+                width: 45px;
+            }
+        }
+
+        .item-second{
+            margin-top:0px;
+            img{
+                display: none;
+            }
+        }
+
+        
+
+        
+        
+    }
+}
+
+@media (max-width: 420px){
+    .token-coin{
+        height: 520px;
+        width: 350px;
+        margin-top: 30px;
+
+        &-item{
+            width: 350px;
+            background-image: none;
+            margin-top: 20px;
+            height: 200px;
+
+            img{
+                width: 74px;
+            }
+            p{
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.3px;
+                text-align: center;
+                max-width: 280px;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 350px){
+    .token-coin{
+        height: 475px;
+        width: 300px;
+
+        &-item{
+            width: 300px;
+            background-image: none;
+            margin-top: 20px;
+            height: 160px;
+
+            img{
+                width: 64px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 22px;
+                letter-spacing: 0.3px;
+                text-align: center;
+                max-width: 240px;
+            }
+        }
+        &-item-plus{
+            img{
+                width: 35px;
+            }
+        }
+
+    }
+    
+}
+

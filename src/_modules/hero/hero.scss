@@ -1,0 +1,207 @@
+// hero styles
+
+.hero{
+    height: 90vh;
+    max-height: 900px;
+    
+    width: 90%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    color: var(--white);
+
+    &-zone{
+        background-color: var(--black); 
+        background-image: url("../images/wonder/wonder_bg.jpg");
+        background-size: cover;
+        background-position: top center;
+
+        max-height: 1000px;
+        height: 650px;
+    
+       
+        display: flex;
+        align-items: center;
+
+
+        
+
+        // .bg-monkey{
+        //     position: absolute;
+        //     bottom: 0px;
+        //     left: 20%;
+        //     transform: translate(-50%, -8%);
+        //     text-align: center;
+        //     width: 100%;  
+        //     z-index: 0;
+            
+        // }
+
+        @media (max-width: 767px){
+            .bg-monkey{
+                img {
+                    width: auto;
+                }
+            }
+            
+        }
+        
+
+ 
+       
+    }
+
+   
+
+    
+    
+    @media (max-width: $m1440) {
+        height: 75vh;
+
+        
+
+        &-zone{
+            max-height: 1024px;
+            height: 650px;
+
+            &_bg{
+                max-height: 1024px;
+            }
+        }
+
+
+    }
+
+    @media (max-width: $m1440) and (min-height: 1200px) {
+        &-zone{
+            height: 90vh;
+            max-height: 1200px;
+
+            &_bg{
+                height: 90vh;
+                max-height: 1200px;
+            }
+        }
+       
+
+        &-arrow{
+            bottom: 15vh;
+        }
+    }
+
+    @media (max-width: $m1200) {
+        
+    }
+
+	@media (max-width: $m992) {
+        flex-direction: column;
+        width: 60%;
+        height: 60vh;
+        min-height: 575px;
+
+       
+
+        &-zone{
+            padding-top: 15vh;
+        }
+
+    }
+
+    @media (max-width: $m1200) and (max-height: 650px) {
+        &-arrow{
+            bottom: 15px;
+        }
+    }
+
+    @media (max-width: $m992) and (max-height: 880px) {
+        width: 75%;
+        min-height: 500px;   //for mobile
+
+        &-zone{
+            
+            max-height: 1200px;
+
+            &_bg{
+                height: 115vh;
+                max-height: 1200px;
+            }
+        }
+
+    }
+    
+	@media (max-width: $m768) {
+        width: 90%;
+        &-zone{
+            padding-top: 0px;
+            height: 650px;
+            background-image: url("../images/wonder/wonder_bg.jpg");
+            background-size: cover, cover, cover;
+            background-position: center center, center center, center center;
+        }
+        &-arrow{
+            display: none;
+        }
+
+        
+    }
+
+
+    @media (max-width: $m992) and (orientation: landscape) {
+            &-zone{
+                height: 650px;
+            }
+    }
+
+    @media (max-width: 600px) and (orientation: landscape) {
+            &-zone{
+                min-height:220vh;
+            }
+    }
+    @media (max-width: 480px) {
+        min-height: 500px;
+       
+    }
+
+    @media (max-width: 350px) {
+        &-zone{
+                min-height:128vh;
+            }
+
+    }
+
+    
+
+     
+
+    
+   
+    @media (max-width: 767px){
+        margin-top: 125px;
+
+       
+
+    }
+
+    @media (max-width: 480px){  
+        margin-top: 125px;
+    }
+
+    @media (max-width: 380px){
+
+    }
+
+    @media (max-width: 350px) {
+
+
+    }
+
+ 
+    
+
+
+}
