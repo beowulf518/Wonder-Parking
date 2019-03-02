@@ -4,6 +4,7 @@
 'use strict';
 
 import $ from 'jquery';
+import Nav from '../_modules/nav/nav';
 //import MultiCarousel from 'multicarousel';
 require('../_modules/header/header');
 require('./slick.js');
@@ -12,7 +13,7 @@ require('./slick.js');
 
 $(() => {
 
-
+  new Nav();
   // var container = document.getElementById('MyCarousel');
   // var carousel = new MultiCarousel({
   //   target: container,

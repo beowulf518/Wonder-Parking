@@ -2,6 +2,7 @@
 .adrides-border{
     overflow:hidden;
     width:100%;
+    position: relative;
 
     .triangle-right{
         background-color: var(--red);
@@ -13,40 +14,65 @@
         z-index: 3;
         position: relative;
     }
+
+    @media (max-width: 767px) {
+        .triangle-right{
+            border-top: 60px solid transparent;
+        }
+       
+    }
+
+    @media (max-width: 350px) {
+        .triangle-right{
+            border-top: 50px solid transparent;
+        }
+    }
     
 }
 
 .bg-monkey{
     position: absolute;
-     left: 50px;
-    top : 0px;
-    transform: translate(0, 59%);
-    z-index: 1;
+    left: 50px;
+    bottom : 0px;
+    transform: translate(0, 40%);
+    z-index: 10;
 
-    @media (max-width: 1200px) {
-        left: -50px;
-        img{
-            transform: scale(0.8);
-        }
-    }
-
-    @media (max-width: $m992) {
+    @media (max-width: 1440px) {
+        left: 0px;
         img{
             transform: scale(0.7);
         }
     }
 
-    @media (max-width: 767px){
-        img {
-            width: auto;
+
+    @media (max-width: 1200px) {
+        left: -50px;
+        img{
+            transform: scale(0.7);
+        }
+    }
+
+    @media (max-width: $m992) {
+        width: 52%;
+        img{
+            transform: scale(0.6);
+            width: 100%;
         }
     }
 
     @media (max-width: 767px){
-        left: -152px;
+        
+        width: 60%;
         img {
             transform: scale(0.6);
+            width: 100%;
         }
+    }
+
+    @media (max-width: 450px){
+        
+        left: -50px;
+        
     }
         
             
@@ -70,6 +96,7 @@
             background-image: linear-gradient( #a8bcff , #ff76eb 25%, #ffdf8f 50%);
             padding-top: 20px;
             padding-bottom: 80px;
+            margin-top: -1px;
             
     }
 
@@ -155,6 +182,22 @@
         margin-left: 145px;
         margin-right: 145px;
         margin-top: 80px;
+        position: relative;
+
+        .videoWrapper{
+            position: relative;
+            padding-bottom: 55.25%;
+            padding-top: 25px;
+            height: 0;
+        }
+
+        iframe{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+        }
 
         div{
             position: relative;
@@ -170,7 +213,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: auto;
+            width: 25%;
         }
     }
 
@@ -371,6 +414,12 @@
             
         }
 
+        &-wonder-title{
+            img{
+                transform: scale(0.8);
+            }
+        }
+
         &-store{
             width:80%;
             margin :auto;
@@ -438,6 +487,12 @@
             }
         }
 
+        &-wonder-title{
+            img{
+                transform: scale(0.8);
+            }
+        }
+
         &-learnmore{
             .learnmore-btn{
                 img{
@@ -448,6 +503,14 @@
     }
 
     @media (max-width: $m992) {
+
+        &-wonder-title{
+            transform: translate(-50%, -72%);
+            img{
+                transform: scale(0.7);
+            }
+        }
+
         &-store{
             width: 90%;
             display: flex;
@@ -575,6 +638,10 @@
         }
         &-wonder-title{
             width: 100%;
+            img{
+                transform: scale(0.7);
+            }
+            
         }  
 
         
@@ -716,7 +783,7 @@
 
 
     @media (max-width: 480px) {
-
+        padding-top: 25px;
         .adrides-waterwheel{
             margin-top: 50px;
             margin-bottom: 50px;
@@ -800,6 +867,10 @@
     }
 
     @media (max-width: 375px) {
+        
+        &-zone{
+            padding-top: 10px;
+        }
         &-store{
             &-content{
                 padding-bottom: 30px;

@@ -15,12 +15,11 @@
 
     {{ hero.content() }}
 
+    
   </div>
 
     <div class="adrides-border">
-      <div class="bg-monkey">      
-        <img src="../images/wonder/bg_monkey.png" alt="Wonder_Park">  
-      </div>
+      
       <div class="triangle-right"></div>
     </div>
 
@@ -65,10 +64,12 @@
                 </div>
 
                 {# Wonder Video #}
+                {# <iframe width="560" height="315" src="https://www.youtube.com/embed/-x3GtNq_kEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> #}
                 <div class="adrides-video">
-                  <div>
-                    <img src="../images/wonder/parking_video.jpg"   />
-                    <img class="play_btn" src="../images/wonder/play_btn.png" />
+                  <div class="videoWrapper">
+                    {# <img src="../images/wonder/parking_video.jpg"   /> #}
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/-x3GtNq_kEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    {# <img class="play_btn" src="../images/wonder/play_btn.png" /> #}
                   </div>
                   
                 </div>
