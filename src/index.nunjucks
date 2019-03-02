@@ -41,16 +41,20 @@
                   </div>
                   <div class="adrides-store-content">
                     <div class="store-btn-group">
-                      <a>
-                        <img src="../images/wonder/app_store_btn.png" />
-                      </a>
-                      <a>
-                        <img src="../images/wonder/google_play_btn.png" />
-                      </a>
+                      <div>
+                        <a>
+                          <img src="http://goosebumps.town/images/apple.store.btn.svg" />
+                        </a>
+                      </div>
+                      <div>
+                        <a>
+                          <img src="http://goosebumps.town/images/google.play.btn.svg" />
+                        </a>
+                      </div>
                     </div>
 
                     <div class="store-description">
-                      <p class="store-description-title">THE FIRST AMUSEMENT PARK CITY-BUILDER GAME<br/>based on a multi-million dollars successful IP! </p>
+                      <p class="store-description-title">THE FIRST AMUSEMENT PARK CITY-BUILDER GAME based on a multi-million dollars successful IP! </p>
                       <p class="store-description-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                   </div>
@@ -112,19 +116,6 @@
                   </div>
                 </div>
 
-                {# WonderCarusel #}
-
-                {# <div id="wonder-carusel" class="adrides-carusel">
-                  <div class="carusel-item" >
-                    <img src="../images/wonder/parking.jpg" />
-                  </div>
-                  <div class="carusel-item"><img src="../images/wonder/parking.jpg" /></div>
-                  <div class="carusel-item"><img src="../images/wonder/parking.jpg" /></div>
-                  <div class="carusel-item"><img src="../images/wonder/parking.jpg" /></div>
-                  <div class="carusel-item"><img src="../images/wonder/parking.jpg" /></div>
-                  <div class="carusel-item"><img src="../images/wonder/parking.jpg" /></div>
-                </div> #}
-
                 <div class="wonder-carusel rio-promos">
                   <img src="../images/wonder/parking.jpg" />
                   <img src="../images/wonder/parking.jpg" />
@@ -163,11 +154,11 @@
               <div class="about-content">
                 <div class="about-section1">
                   <p class="title">About PIXOWL</p>
-                  <p class="description">Founded in 2011 and headquartered in San Francisco, CA, with development studios in Buenos Aires, Argentina, Pixowl, Inc. is a mobile game development company. Pixowl’s experienced international team of dynamic innovators strives to meet and exceed the desires of mobile game players worldwide by blending exciting gameplay, comic book art and character-driven storylines.  With the success of its iOS games including The Sandbox, Peanuts: Snoopy’s Town Tale & Garfield: Survival of the Fattest, Pixowl has already established itself as a leader in casual mobile games and IP-based games. For more information about Pixowl, please visit <b>www.pixowl.com</b> or friend and follow them on Facebook and Twitter.</p>
+                  <p class="description">Founded in 2011 and headquartered in San Francisco, CA, with development studios in Buenos Aires, Argentina, Pixowl, Inc. is a mobile game development company. Pixowl’s experienced international team of dynamic innovators strives to meet and exceed the desires of mobile game players worldwide by blending exciting gameplay, comic book art and character-driven storylines.  With the success of its iOS games including The Sandbox, Peanuts: Snoopy’s Town Tale & Garfield: Survival of the Fattest, Pixowl has already established itself as a leader in casual mobile games and IP-based games. For more information about Pixowl, please visit <b><a href="http://www.pixowl.com"> www.pixowl.com </a></b> or friend and follow them on Facebook and Twitter.</p>
                 </div>
                 <div class="about-section1">
                   <p class="title">About WONDER PARK</p>
-                  <p class="description">Wonder Park tells the story of a magnificent amusement park where the imagination of a wildly creative girl named June comes alive. One magical day, June is running through the woods to find her way home where she discovers an old rollercoaster car and climbs inside. She suddenly finds herself in Wonderland, an amusement park she had created in her mind and put aside. All of her rides and characters are brought to life but are falling into disarray without her. Now, with the help of her fun and lovable park characters, June will have to put the wonder back in Wonderland before it is lost forever.. <b>www.wonderparkmovie.com</b></p>
+                  <p class="description">Wonder Park tells the story of a magnificent amusement park where the imagination of a wildly creative girl named June comes alive. One magical day, June is running through the woods to find her way home where she discovers an old rollercoaster car and climbs inside. She suddenly finds herself in Wonderland, an amusement park she had created in her mind and put aside. All of her rides and characters are brought to life but are falling into disarray without her. Now, with the help of her fun and lovable park characters, June will have to put the wonder back in Wonderland before it is lost forever.. <b><a href="http://www.wonderparkmovie.com">www.wonderparkmovie.com </a></b></p>
                 </div>
                 <div class="about-logo-section">
                   <div class="logo-item"><img src="../images/wonder/animoca.png"/></div>

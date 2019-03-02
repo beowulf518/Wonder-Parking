@@ -372,34 +372,53 @@
 
       button.slick-next, button.slick-next:hover {
         
-        right: -7%;
-        width: 34px;
-        height: 55px;
-        background-size: 70px;
+        right: -4%;
+        width: 27px;
+        height: 42px;
+        background-size: 55px;
       }
       button.slick-prev, button.slick-prev:hover {
         
-        left: -7%;
-        width: 34px;
-        height: 55px;
-        background-size: 70px;
+        left: -4%;
+        width: 27px;
+        height: 42px;
+        background-size: 55px;
       }
 }
 
 @media (max-width: 768px) {
     button.slick-next, button.slick-next:hover {
  
-        right: -7%;
+        right: -4%;
         width: 25px;
         height: 39px;
         background-size: 50px;
       }
       button.slick-prev, button.slick-prev:hover {
         
-        left: -7%;
+        left: -4%;
         width: 25px;
         height: 39px;
         background-size: 50px;
+      }
+      
+}
+
+
+@media (max-width: 600px) {
+    button.slick-next, button.slick-next:hover {
+
+        right: -4%;
+        width: 20px;
+        height: 31px;
+        background-size: 40px;
+      }
+      button.slick-prev, button.slick-prev:hover {
+        
+        left: -4%;
+        width: 20px;
+        height: 31px;
+        background-size: 40px;
       }
       
 }

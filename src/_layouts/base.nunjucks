@@ -33,7 +33,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <link rel="stylesheet" href="{{baseUrl}}styles/main.css"/>
-    <link rel="shortcut icon" type="image/x-icon" href="../images/logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/wonder/WonderPark-Icon.png">
    
    
     {% block stylesheets %}{% endblock %}
@@ -47,32 +47,21 @@
     </p>
     <![endif]-->
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-22426140-25"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-22426140-25');
+    </script>
+
     {% block content %}{% endblock %}
 
     <script src="{{baseUrl}}scripts/main.js"></script>
-    <script src="{{baseUrl}}scripts/multicarousel.js"></script>
     <script>
-        var container = document.getElementById('wonder-carusel');
-        var carousel = new MultiCarousel({
-          target: container,
-          data: {
-            delay: 3000,
-            items: Array.prototype.slice.call(container.children),
-            count: 2
-          }
-        });
-        function previous() {
-          carousel.previous();
-        }
-        function pause() {
-          carousel.pause();
-        }
-        function start() {
-          carousel.start();
-        }
-        function next() {
-          carousel.next();
-        }
+        
     
     </script>
     {% block scripts %}{% endblock %}

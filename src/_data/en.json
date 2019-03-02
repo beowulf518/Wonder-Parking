@@ -1,63 +1,29 @@
 {
 	"global": {
 		"lang": "en",
-		"titleTag": "The Sandbox",
+		"titleTag": "Wonder Park Magic Rides Mobile Game by Pixowl",
 		
 
-		"description": "The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!",
-		
-		"keyword": "sandbox, voxel art, 3D voxel game, voxel artists, 3D online PC game, community, blockchain dapp, PC voxel game, PC voxel art, decentralized game",
-
+		"description": "Create the PARK of your dreams with WONDER PARK MAGIC RIDES! BUILD awesome rollercoasters, CRAFT items, COLLECT Wonderchimps, DECORATE your Park and MANAGE your Visitors to become a true TYCOON. Ever WONDERED what it would be like if your DREAM AMUSEMENT PARK came to life? Join the characters from the movie in an amazing PARK BUILDING adventure. Can you breathe LIFE back into Wonder Park? Start from zero and become a HERO!",
 		"properties":[
 			{
 				"name":"og:title",
-				"content":"A Decentralized Gaming Platform Made By Players" 
+				"content":"Wonder Park Magic Rides Mobile Game by Pixowl" 
 			},
 			{
 				"name":"og:description",
-				"content":"The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!" 
+				"content": "Create the PARK of your dreams with WONDER PARK MAGIC RIDES! BUILD awesome rollercoasters, CRAFT items, COLLECT Wonderchimps, DECORATE your Park and MANAGE your Visitors to become a true TYCOON. Ever WONDERED what it would be like if your DREAM AMUSEMENT PARK came to life? Join the characters from the movie in an amazing PARK BUILDING adventure. Can you breathe LIFE back into Wonder Park? Start from zero and become a HERO!" 
 			},
 			{
 				"name":"og:url",
-				"content":"https://sandbox.game" 
+				"content":"https://www.wonderpark.game" 
 			},
 			{
 				"name":"og:site_name",
-				"content":"The Sandbox" 
-			},
-			{
-				"name":"og:image",
-				"content":"https://www.sandbox.game/media/The-Sandbox-Banner1-1200px.png" 
+				"content":"Wonder Park Magic Rides Mobile Game by Pixowl" 
 			}
-		],
-		
+		]
 
-		"twitters":[
-			{
-				"name":"twitter:title",
-				"content": "A Decentralized Gaming Ecosystem Made By Players."
-			},
-			{
-				"name":"twitter:description",
-				"content": "The Sandbox is a decentralized community-driven gaming ecosystem for creators to monetize voxel assets and gaming experiences in the blockchain!"
-			},
-			{
-				"name":"twitter:card",
-				"content": "A Decentralized Gaming Ecosystem Made By Players."
-			},
-			{
-				"name":"twitter:site",
-				"content": "@thesandboxgame"
-			},
-			{
-				"name":"twitter:creator",
-				"content": "@thesandboxgame"
-			},
-			{
-				"name":"twitter:creator",
-				"content": "https://www.sandbox.game/images/logo.png"
-			}
-		]		
 	},
 
 	"header": {
@@ -66,21 +32,21 @@
 				"name": "HOME",
 				"list_class": "nav-list_item",
 				"link_class": "nav-list_link",
-				"url": "/",
+				"url": "http://www.wonderpark.game",
 				"target": "_blank"
 			},
 			{
 				"name": "HELP",
 				"list_class": "nav-list_item",
 				"link_class": "nav-list_link",
-				"url": "/help",
+				"url": "https://thesandbox.helpshift.com/a/wonder-park/",
 				"target": ""
 			},
 			{
 				"name": "FACEBOOK",
 				"list_class": "nav-list_item",
 				"link_class": "nav-list_link",
-				"url": "/facebook",
+				"url": "https://www.facebook.com/Wonder-Park-Game-319212188690683/",
 				"target": ""
 			},
 			{
@@ -94,7 +60,7 @@
 				"name": "ABOUT US",
 				"list_class": "nav-list_item",
 				"link_class": "nav-list_link",
-				"url": "/aboutus",
+				"url": "/#about-us",
 				"target": ""
 			}
 		]
