@@ -326,6 +326,7 @@
         }
 
         &-wonder-title{
+            transform: translate(-50%, -72%);
             img{
                 transform: scale(0.8);
             }
@@ -826,8 +827,7 @@
             border-radius: 10px;
             display: flex;
             padding: 7px 28px 7px 28px;
-            justify-content: center;
-           
+            justify-content: center;          
 
             .logo-item{
                 flex-basis: 25%;
@@ -836,6 +836,27 @@
                 align-items: center;
             }
 
+        }
+
+        .join-btn {
+            bottom: 10%;
+            display: flex;
+            width: 250px;
+            height: 80px;
+            margin: 20px;
+            font-size: 1em;
+            font-weight: 800;
+            border-radius: 40px;
+            border: 1px solid white;
+            color: white;
+            background-color: red;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .join-btn:hover{
+            background-color: lightcoral;
         }
     }
 
