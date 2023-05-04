@@ -19,7 +19,6 @@
   </div>
 
     <div class="adrides-border">
-      
       <div class="triangle-right"></div>
     </div>
 
@@ -27,35 +26,91 @@
       <div class="wrapper">      
             <div class="adrides">
 
-                
-
                 <div class="adrides-wonder-title">      
                     <img src="../images/wonder/wonder_park_title.png" alt="Wonder_Park">  
                 </div>
 
-
                 <div class="adrides-store">
-                  <div class="adrides-store-girl" >
-                    <img src="../images/wonder/wonder_girl.png"/>
-                  </div>
                   <div class="adrides-store-content">
-                    <div class="store-btn-group">
-                      <div>
-                        <a>
-                          <img src="http://goosebumps.town/images/apple.store.btn.svg" />
-                        </a>
+                    <p class="adrides-store-content-title">HOW TO GET $WONDER?</p>
+                    <div class="adrides-store-content-step">
+                      <div class="adrides-store-content-step-girl" >
+                        <img src="../images/wonder/wonder_girl.png"/>
+                      </div>       
+                      <div class="adrides-store-content-step-content">
+                        <div class="adrides-store-content-step-content-icon">
+                          <img src="../images/wonder/red_circle.png"/>
+                          <div class="adrides-store-content-step-content-icon-title">STEP 1: Create a MetaMask Wallet</div>
+                        </div>
+                        <p>$WONDER token is available on the Ethereum blockchain. MetaMask is a third party ERC20 (Ethereum) browser wallet, and the very best at that! On Google Chrome, visit metamask.io to download the extension and set up a wallet. On mobile? Get MetaMask's app for iPhone or Android.</p>
                       </div>
-                      <div>
-                        <a>
-                          <img src="http://goosebumps.town/images/google.play.btn.svg" />
-                        </a>
+                    </div>
+                    <div class="adrides-store-content-step">
+                      <div class="adrides-store-content-step-girl" >
+                        <img src="../images/wonder/wonder_girl1.png"/>
+                      </div>                         
+                      <div class="adrides-store-content-step-content">
+                        <div class="adrides-store-content-step-content-icon">
+                          <img src="../images/wonder/red_circle.png"/>
+                          <div class="adrides-store-content-step-content-icon-title">STEP 2: Send $ETH to MetaMask</div>
+                        </div>
+                        <p>Acquire Ethereum through MetaMask itself or transfer it to your MetaMask wallet address from another wallet (e.g. Coinbase or Binance).</p>
+                      </div>                     
+                    </div>
+                    <div class="adrides-store-content-step">
+                      <div class="adrides-store-content-step-girl" >
+                        <img src="../images/wonder/wonder_girl2.png"/>
+                      </div>       
+                      <div class="adrides-store-content-step-content">
+                        <div class="adrides-store-content-step-content-icon">
+                          <img src="../images/wonder/red_circle.png"/>
+                          <div class="adrides-store-content-step-content-icon-title">STEP 3: Swap $ETH for $WONDER</div>
+                        </div>
+                        <p>Enter the amount of $ETH you would like to swap for $WONDER. Click Connect Wallet then Swap.</p>
+                      </div>
+                    </div>                                        
+                  </div>
+                </div>
+
+                {# Wonder Tokenomics #}
+                <div class="adrides-tokenomics">
+                  <p class="adrides-tokenomics-title">TOKENOMICS & STATE</p>
+                  <div class="adrides-tokenomics-content">
+                    <div class="adrides-tokenomics-avatar" >
+                      <img src="../images/wonder/wonder_girl_monkey.png"/>
+                    </div>
+                    <div class="adrides-tokenomics-content-group">
+                      <div class="adrides-tokenomics-content-group-items">
+                        <div class="adrides-tokenomics-content-group-items-item">
+                          <p class="adrides-tokenomics-content-group-items-item-title">$WONDER</p>
+                          <p class="adrides-tokenomics-content-group-items-item-content">TOKEN SYMBOL</p>
+                        </div>
+                        <div class="adrides-tokenomics-content-group-items-item">
+                          <p class="adrides-tokenomics-content-group-items-item-title">2%</p>
+                          <p class="adrides-tokenomics-content-group-items-item-content">THANKS TO TRANSACTION</p>
+                        </div>
+                        <div class="adrides-tokenomics-content-group-items-item">
+                          <p class="adrides-tokenomics-content-group-items-item-title">100 Quadrillion</p>
+                          <p class="adrides-tokenomics-content-group-items-item-content">TOTAL SUPPLY</p>
+                        </div>
+                      </div>
+                      <div class="adrides-tokenomics-content-group-items">
+                        <div class="adrides-tokenomics-content-group-items-item">
+                          <p class="adrides-tokenomics-content-group-items-item-title">200,000+</p>
+                          <p class="adrides-tokenomics-content-group-items-item-content">HOLDERS</p>
+                        </div>
+                        <div class="adrides-tokenomics-content-group-items-item">
+                          <p class="adrides-tokenomics-content-group-items-item-title">156</p>
+                          <p class="adrides-tokenomics-content-group-items-item-content">MARKET CAP</p>
+                        </div>
+                        <div class="adrides-tokenomics-content-group-items-item">
+                          <p class="adrides-tokenomics-content-group-items-item-title">1.2</p>
+                          <p class="adrides-tokenomics-content-group-items-item-content">CURRENT PRICE</p>
+                        </div>
                       </div>
                     </div>
 
-                    <div class="store-description">
-                      <p class="store-description-title">THE FIRST AMUSEMENT PARK CITY-BUILDER GAME based on a multi-million dollars successful IP! </p>
-                      <p class="store-description-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
+                    
                   </div>
                 </div>
 
@@ -63,108 +118,124 @@
                     <img src="../images/wonder/waterwheel.png" />
                 </div>
 
-                {# Wonder Video #}
-                {# <iframe width="560" height="315" src="https://www.youtube.com/embed/-x3GtNq_kEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> #}
-                <div class="adrides-video">
-                  <div class="videoWrapper">
-                    {# <img src="../images/wonder/parking_video.jpg"   /> #}
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/-x3GtNq_kEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    {# <img class="play_btn" src="../images/wonder/play_btn.png" /> #}
+                <div class="adrides-loadmap">
+                  <div class="adrides-loadmap-parking" >
+                    <img src="../images/wonder/wonder_parking.png" />
                   </div>
-                  
+                  <p class="adrides-loadmap-title">LOADMAP</p>
+                  <div class="wonder-carusel rio-promos">
+                    <div class="adrides-loadmap-card">
+                      <div class="adrides-loadmap-card-number">1. Launch</div>
+                      <div class="adrides-loadmap-card-item">
+                        <img src="../images/wonder/green_check.svg"/>
+                        <div class="adrides-loadmap-card-item-description">
+                          1,000 Holders
+                        </div>
+                      </div>
+                      <div class="adrides-loadmap-card-item">
+                        <img src="../images/wonder/green_check.svg"/>
+                        <div class="adrides-loadmap-card-item-description">
+                          Website Launch
+                        </div>
+                      </div>
+                      <div class="adrides-loadmap-card-item">
+                        <img src="../images/wonder/green_check.svg"/>
+                        <div class="adrides-loadmap-card-item-description">
+                          CoinGecko Listing
+                        </div>
+                      </div>
+                      <div class="adrides-loadmap-card-item">
+                        <img src="../images/wonder/green_check.svg"/>
+                        <div class="adrides-loadmap-card-item-description">
+                          CoinGecko Listing
+                        </div>
+                      </div>
+                      <div class="adrides-loadmap-card-item">
+                        <img src="../images/wonder/green_check.svg"/>
+                        <div class="adrides-loadmap-card-item-description">
+                          CoinGecko Listing
+                        </div>
+                      </div>                                            
+                    </div>
+                    <div class="adrides-loadmap-card">
+                      <div class="adrides-loadmap-card-number">2. Growth</div>
+                      <div class="adrides-loadmap-card-item">
+                        <img src="../images/wonder/green_check.svg"/>
+                        <div class="adrides-loadmap-card-item-description">
+                          5,000 Telegram Members
+                        </div>
+                      </div>
+                      <div class="adrides-loadmap-card-item">
+                        <img src="../images/wonder/green_check.svg"/>
+                        <div class="adrides-loadmap-card-item-description">
+                          Website Redesign
+                        </div>
+                      </div>
+                      <div class="adrides-loadmap-card-item">
+                        <img src="../images/wonder/green_check.svg"/>
+                        <div class="adrides-loadmap-card-item-description">
+                          10,000 Holders
+                        </div>
+                      </div>
+                      <div class="adrides-loadmap-card-item">
+                        <img src="../images/wonder/green_check.svg"/>
+                        <div class="adrides-loadmap-card-item-description">
+                          10,000 Telegram Members
+                        </div>
+                      </div>
+                      <div class="adrides-loadmap-card-item">
+                        <img src="../images/wonder/green_check.svg"/>
+                        <div class="adrides-loadmap-card-item-description">
+                          20,000 Holders
+                        </div>
+                      </div>                                            
+                    </div>
+                    <div class="adrides-loadmap-card">
+                      <div class="adrides-loadmap-card-number">3. Expansion</div>
+                      <div class="adrides-loadmap-card-item">
+                        <img src="../images/wonder/green_check.svg"/>
+                        <div class="adrides-loadmap-card-item-description">
+                          SHIPOO Swap (Decentralize Exchange)
+                        </div>
+                      </div>
+                      <div class="adrides-loadmap-card-item">
+                        <img src="../images/wonder/green_check.svg"/>
+                        <div class="adrides-loadmap-card-item-description">
+                          Initial CEX Listings (Hotbit, Bilaxy, CoinTiger)
+                        </div>
+                      </div>
+                      <div class="adrides-loadmap-card-item">
+                        <img src="../images/wonder/green_check.svg"/>
+                        <div class="adrides-loadmap-card-item-description">
+                          15,000 Telegram Members
+                        </div>
+                      </div>
+                      <div class="adrides-loadmap-card-item">
+                        <img src="../images/wonder/green_check.svg"/>
+                        <div class="adrides-loadmap-card-item-description">
+                          30,000 Holders
+                        </div>
+                      </div>                                          
+                    </div>                    
+                  </div>
                 </div>
 
-                {# Wonder Learn More #}
-                <div class="adrides-learnmore">
-                  <div class="adrides-learnmore-avatar" >
-                    <img src="../images/wonder/learnmore_avatar.png"/>
-                  </div>
-
-                  <div class="adrides-learnmore-content">
-                    
-
-                    <div class="store-description">
-                      <p class="store-description-title">THE FIRST AMUSEMENT PARK CITY-BUILDER GAME<br/>based on a multi-million dollars successful IP! </p>
-                      <p class="store-description-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-
-
-                    <div class="learnmore-btn">
-                      <a>
-                        <img src="../images/wonder/learnmore_btn.png" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                {# KEY FEATURE #}
-                <div class="adrides-keyfeature">
-                  <div class="adrides-keyfeature-content">
-
-                    <div class="adrides-keyfeature-parking" >
-                      <img src="../images/wonder/wonder_parking.png" />
-                    </div>
-
-                    <div class="store-description">
-                      <p class="store-description-title">KEY FEATURE </p>
-                      <p class="store-description-content">+ Create a complete collection of Chimps</p>
-                      <p class="store-description-content">+ Over 30 playable characters! </p>
-                      <p class="store-description-content">+ Craft and sell new items! </p>
-                      <p class="store-description-content">+ Make visitors happy to collect special materials!</p>
-                    </div>
-
-                    
-                  </div>
-                </div>
-
-                <div class="wonder-carusel rio-promos">
-                  <img src="../images/wonder/parking.jpg" />
-                  <img src="../images/wonder/parking.jpg" />
-                  <img src="../images/wonder/parking.jpg" />
-                  <img src="../images/wonder/parking.jpg" />
-                  <img src="../images/wonder/parking.jpg" />
-                  <img src="../images/wonder/parking.jpg" />
-                  <img src="../images/wonder/parking.jpg" />
-                  <img src="../images/wonder/parking.jpg" />
-                  <img src="../images/wonder/parking.jpg" />
-                </div>
-
-                {# Bag #}
-                <div class="adrides-bag">
-                  <div class="adrides-bag-avatar" >
-                    <img src="../images/wonder/bag.png"/>
-                  </div>
-
-                  <div class="adrides-bag-content">
-                    
-
-                    <div class="bag-description">
-                      <p class="bag-description-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor... </p>
-                      <p class="bag-description-content">irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                  </div>
-                </div>
+                {# DONATE #}              
        
             </div>
 
             <div class="about">
               <div class="about-logo">
-                <img src="../images/wonder/wonder_girl_monkey.png"/>
+                <img src="../images/wonder/tokenomics.png"/>
               </div>
               
               <div class="about-content">
                 <div class="about-section1">
-                  <p class="title">About PIXOWL</p>
-                  <p class="description">Founded in 2011 and headquartered in San Francisco, CA, with development studios in Buenos Aires, Argentina, Pixowl, Inc. is a mobile game development company. Pixowl’s experienced international team of dynamic innovators strives to meet and exceed the desires of mobile game players worldwide by blending exciting gameplay, comic book art and character-driven storylines.  With the success of its iOS games including The Sandbox, Peanuts: Snoopy’s Town Tale & Garfield: Survival of the Fattest, Pixowl has already established itself as a leader in casual mobile games and IP-based games. For more information about Pixowl, please visit <b><a href="http://www.pixowl.com"> www.pixowl.com </a></b> or friend and follow them on Facebook and Twitter.</p>
-                </div>
-                <div class="about-section1">
-                  <p class="title">About WONDER PARK</p>
-                  <p class="description">Wonder Park tells the story of a magnificent amusement park where the imagination of a wildly creative girl named June comes alive. One magical day, June is running through the woods to find her way home where she discovers an old rollercoaster car and climbs inside. She suddenly finds herself in Wonderland, an amusement park she had created in her mind and put aside. All of her rides and characters are brought to life but are falling into disarray without her. Now, with the help of her fun and lovable park characters, June will have to put the wonder back in Wonderland before it is lost forever.. <b><a href="http://www.wonderparkmovie.com">www.wonderparkmovie.com </a></b></p>
+                  <p class="title">JOIN US</p>
+                  <p class="description">WONDER is a decentralized group of 20+ volunteers community managers with expertise in development, moderation and group coordination. Feel free to say "Hi!".</p>
                 </div>
                 <div class="about-logo-section">
                   <div class="logo-item"><img src="../images/wonder/animoca.png"/></div>
-                  <div class="logo-item"><img src="../images/wonder/pixowl.png"/></div>
-                  <div class="logo-item"><img src="../images/wonder/paramount.png"/></div>
                   <div class="logo-item"><img src="../images/wonder/nickelodeon.png"/></div>
                 </div>
               </div>

@@ -3,10 +3,6 @@
 {% set spec = spec or {} %}
 {% set _class = spec.class or '' %}
     <img class="wonder-bg" src="../images/wonder/wonder_bg.jpg" />
-
-    <div class="bg-monkey">      
-      <img src="../images/wonder/bg_monkey.png" alt="Wonder_Park">  
-    </div>
 </div>
 
  

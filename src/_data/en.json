@@ -36,24 +36,31 @@
 				"target": "_blank"
 			},
 			{
-				"name": "HELP",
+				"name": "TWITTER",
 				"list_class": "nav-list_item",
 				"link_class": "nav-list_link",
 				"url": "https://thesandbox.helpshift.com/a/wonder-park/",
 				"target": ""
 			},
 			{
-				"name": "FACEBOOK",
+				"name": "TELEGRAM",
 				"list_class": "nav-list_item",
 				"link_class": "nav-list_link",
 				"url": "https://www.facebook.com/Wonder-Park-Game-319212188690683/",
 				"target": ""
 			},
 			{
-				"name": "INSTAGRAM",
+				"name": "DEXTOOLS",
 				"list_class": "nav-list_item",
 				"link_class": "nav-list_link",
 				"url": "/instagram",
+				"target": ""
+			},
+			{
+				"name": "HELP",
+				"list_class": "nav-list_item",
+				"link_class": "nav-list_link",
+				"url": "https://thesandbox.helpshift.com/a/wonder-park/",
 				"target": ""
 			},
 			{

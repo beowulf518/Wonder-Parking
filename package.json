@@ -8,7 +8,7 @@
     "normalize.css": "~5.0.0",
     "npm": "^6.1.0",
     "scrollreveal": "^3.4.0",
-    "serve": "^6.5.4",
+    "serve": "^4.0.0",
     "swiper": "^4.3.2"
   },
   "devDependencies": {
@@ -58,7 +58,7 @@
     "clean-deps": "rimraf node_modules",
     "clean": "gulp clean",
     "lint": "gulp eslint",
-    "serve:test": "NODE_ENV=test gulp serve",
+    "serve:test": "gulp serve",
     "serve:prod": "NODE_ENV=development gulp serve",
     "serve": "NODE_ENV=production gulp serve --production",
     "build": "NODE_ENV=production gulp --production"
