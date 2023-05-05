@@ -143,6 +143,7 @@
                 color: #6d5339;
                 font-family: "Open Sans", sans-serif;   
                 font-size: 24px;
+                margin: 40px 0px;
 
                 &-girl {
                     img{
@@ -444,7 +445,7 @@
                 display: flex;
                 img{
                     width: 200px;
-                    height: 200px;
+                    height: 300px;
                 }
                 
             }
@@ -525,7 +526,7 @@
                     }
 
                     &-content{
-                        margin-left: 40px;
+                        margin-left: 0px;
                         margin-top: 0px !important;
                     }
 
@@ -557,9 +558,10 @@
             &-avatar{
                 display: flex;
                 justify-content: center;
+                padding-bottom: 50px;
                 img{
                     width: 200px;
-                    height: 200px;
+                    height: 300px;
                 }
             }
 
